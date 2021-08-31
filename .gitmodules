@@ -1,0 +1,18 @@
+[submodule "week-1-cokpara"]
+	path = week-1-cokpara
+	url = https://github.com/nmerveb/patika-innovance-bootcamp109
+[submodule "week-1-eft-uygulaması"]
+	path = week-1-eft-uygulaması
+	url = https://github.com/nmerveb/patika-innovance-bootcamp109
+[submodule "week-2-food-search-engine"]
+	path = week-2-food-search-engine
+	url = https://github.com/nmerveb/patika-innovance-bootcamp109
+[submodule "week-5-chat-app-team-d"]
+	path = week-5-chat-app-team-d
+	url = https://github.com/nmerveb/patika-innovance-bootcamp109
+[submodule "week-3-country-app"]
+	path = week-3-country-app
+	url = https://github.com/nmerveb/patika-innovance-bootcamp109
+[submodule "week-4-easyboardgame"]
+	path = week-4-easyboardgame
+	url = https://github.com/nmerveb/patika-innovance-bootcamp109
