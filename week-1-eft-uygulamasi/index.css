@@ -1,0 +1,141 @@
+.form-select {
+    display: block;
+    width: 600px;
+    padding: 0.375rem 2.25rem 0.375rem 0.75rem;
+    -moz-padding-start: calc(0.75rem - 3px);
+    font-size: 1rem;
+    line-height: 1.5;
+    color: #606163;
+    background-color: #fff;
+    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16'%3e%3cpath fill='none' stroke='%23343a40' stroke-linecap='round' stroke-linejoin='round' stroke-width='2' d='M2 5l6 6 6-6'/%3e%3c/svg%3e");
+    background-repeat: no-repeat;
+    background-position: right 0.75rem center;
+    background-size: 16px 12px;
+    border: 1px solid #878c91;
+    border-radius: 0.25rem;
+    transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+  }
+  .form-select:focus {
+    border-color: #000000;
+    outline: 0;
+    box-shadow: 0 0 0 0.25rem rgba(54, 53, 53, 0.25);
+    justify-content: center;
+  }
+.mb-3 {
+    margin-bottom: 1rem !important;
+  }
+.col-12 {
+    justify-content: center;
+    padding-left: 20px;
+  }
+.visually-hidden,
+.visually-hidden-focusable:not(:focus):not(:focus-within) {
+  position: absolute !important;
+  width: 1px !important;
+  height: 1px !important;
+  padding: 0 !important;
+  margin: -1px !important;
+  overflow: hidden !important;
+  clip: rect(0, 0, 0, 0) !important;
+  white-space: nowrap !important;
+  border: 0 !important;
+}
+.input-group {
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: stretch;
+    width: 600px;
+}
+.input-group-text {
+    display: flex;
+    align-items: center;
+    padding: 0.375rem 0.75rem;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    font: 15px Arial, Helvetica, sans-serif;
+    line-height: 1.5;
+    color: #ffffff;
+    text-align: center;
+    white-space: nowrap;
+    background-color: #babbbd;
+    border: 1px solid #878c91;
+    border-radius: 0.25rem;
+}
+.input-group > .form-control,
+.input-group > .form-select {
+  position: relative;
+  flex: 1 1 auto;
+  width: 1%;
+  min-width: 0;
+  margin-top: 15px;
+}
+.form-control {
+    display: block;
+    width: 100%;
+    padding: 0.375rem 0.75rem;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #212529;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 1px solid #918787;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    border-radius: 0.25rem;
+    transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+    margin-bottom: 15px;
+  }
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+.label{
+    font: 16px Arial, Helvetica, sans-serif;  
+}
+.submit-button{
+    background-color: #c40101;
+    color: #e7ebee;
+    font:16px Arial, Helvetica, sans-serif;
+    margin-left: 520px;
+    border-radius: 0.25rem;
+    height:40px;
+    width: 100px;
+    margin-bottom: 50px;
+}
+.timer{
+    color: #000000;
+    font:16px  Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    margin-left: 575px;
+    height:40px;
+    width: 100px;    
+}
+.title{
+    height: 65px; 
+    background-color: #c40101;
+    color: #e7ebee; 
+    font: 40px Arial, Helvetica, sans-serif; 
+    padding-left: 15px; 
+    padding-top: 15px;
+    border-top-left-radius:0.25rem ;
+    border-top-right-radius: 0.25rem;
+    width: 667px; 
+    margin-left: 30%; 
+    margin-top:8% ;
+}
+.menu{
+    background-color: #e9ecef; 
+    border: 1px solid #ced4da; 
+    border-bottom-right-radius: 0.25rem;
+    border-bottom-left-radius: 0.25rem;
+    width: 680px; 
+    margin-left: 30%;
+    padding-top: 20px;
+}

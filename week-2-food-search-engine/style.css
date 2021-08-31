@@ -1,0 +1,96 @@
+.navbar {
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    height: 60px;
+  }
+  .navbar-dark .navbar-brand {
+    color: #fff;
+  }
+
+  .bg-dark {
+    background-color: #212529 !important;
+  }
+  .navbar-brand {
+    padding-top:10px;
+    padding-bottom: 0.3125rem;
+    padding-left: 20px;
+    font-size: 1.25rem;
+    text-decoration: none;
+    white-space: nowrap;
+    font: 25px Arial, Helvetica, sans-serif;
+    
+  }
+  .d-inline-block {
+    display: inline-block !important;
+    padding-left: 10px;
+    padding-right: 30px;
+  }
+  .align-top {
+    vertical-align: top !important;
+  }
+  .form-control {
+    width: 400px;
+    height: 40px;
+    margin-right:50px;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #212529;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 1px solid #ced4da;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    border-radius: 0.25rem;
+    transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+  } 
+.my-2 {
+  margin-top: 0.5rem !important;
+  margin-bottom: 0.5rem !important;
+}
+.cards{
+  width: 250px;
+  height:200px;
+  background-color:#ff6955;
+  margin:5px;
+  align-items: center;
+  text-align: center;
+  border-radius: 5px;
+}
+.foods {
+  width:100%;
+  height: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.card-title{
+  width: 230px;
+  height:80px;
+  margin-left: 10px;
+  margin-right: 10px;
+  margin-top: 15px;
+  justify-content: center;
+  font: 20px Arial, Helvetica, sans-serif;
+}
+
+.icon-color {
+  font-size: 30px;
+  color:#f4bb22;
+}
+.icon-color2 {
+  font-size: 30px;
+  color:#f4bb22;
+}
+.icon-click-area{
+  background-color:#ff6955 ;
+  border:#ff6955;
+  width: 50px;
+  height: 50px;
+}
